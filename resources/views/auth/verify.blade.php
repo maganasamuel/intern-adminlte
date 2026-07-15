@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.lte', ['hide_title' => true])
 
 @section('content')
 <div class="container">
