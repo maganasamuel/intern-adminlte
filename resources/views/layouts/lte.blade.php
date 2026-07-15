@@ -37,8 +37,8 @@
               </a>
             </li>
           @else
-            <li class="nav-item sidebar-brand border-0">
-              <a class="nav-link brand-link"
+            <li class="nav-item sidebar-brand h-auto p-0 border-0">
+              <a class="nav-link brand-link p-0"
                 href="/"><span class="brand-text fw-light">{{ config('app.name') }}</span></a>
             </li>
           @endauth
